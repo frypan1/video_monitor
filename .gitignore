@@ -3,3 +3,12 @@ models/*
 
 # But allow the models folder itself
 !models/.gitkeep
+
+output/*
+
+# Ignore everything inside the videos folder
+videos/*
+
+# But allow the folders to exist in Git by keeping a placeholder file
+!output/.gitkeep
+!videos/.gitkeep
